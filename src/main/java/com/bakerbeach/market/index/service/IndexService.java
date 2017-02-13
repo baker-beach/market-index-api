@@ -15,4 +15,8 @@ public interface IndexService {
 	void index(RawProduct product, String code, String status, Date lastUpdate, List<Locale> locales,
 			List<Currency> currencies, List<String> priceGroups);
 
+	void delete(List<String> gtins, String solrCode, String status);
+
+	void delete(String gtin, String solrCode, String status);
+
 }

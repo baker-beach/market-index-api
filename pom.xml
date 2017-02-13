@@ -10,7 +10,7 @@
 	<artifactId>market-index-api</artifactId>
 	<name>market-index-api</name>
 	<packaging>jar</packaging>
-	<version>1.0.2</version>
+	<version>1.0.6</version>
 	<properties>
 	</properties>
 	<dependencies>
